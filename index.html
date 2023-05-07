@@ -8,6 +8,7 @@
     <style>
         #conteudo{
             width:70vw; margin:0 auto;
+            margin-bottom: 1rem;
         }
         p{
             text-align:justify;
@@ -31,11 +32,10 @@
         }  
         
        .center {
-            display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
-            height: 200px;
+            height: 100px;
 }
         .container{
             justify-content: center;
@@ -43,11 +43,11 @@
             width: 300px;
             height: 300px;  
             flex-direction: column;
-
         } 
         .item {
             flex: 1;
             margin: 10px;
+    
         }
     </style>
 </head>
@@ -55,9 +55,11 @@
 <body>
     <header id="cabecalho" style="background-color: blueviolet;">
         <div class="center">
-            <a name="inicio"></a>
-             <img src="./download (1).jpg" height="200"><img src="./imagens.jpg" height="200"><img src="./saudemental_epsjv.jpg" height="200">
-            <h3>
+             <a name="inicio"></a>
+             <img src="./download (1).jpg" height="150"><img src="./imagens.jpg" height="150"><img src="./saudemental_epsjv.jpg" height="150">
+        </div>
+        <div class="text-container">
+             <h3>
              <a href="#secao1" >Saúde Mental na Pandemia</a>   
              <a href="#secao2" >Estresse e Ansiedade</a>   
              <a href="#secao3" >Funcionamento do Coração</a> 
@@ -65,21 +67,21 @@
             </h3>
         </div>
     </header>
-    <div id="conteudo">
-        <p>
-        <h1>SAÚDE MENTAL E SUA IMPORTÂNCIA PARA O CORAÇÃO</h1>
-        <p>
+    <div id="conteudo" style="margin-bottom: 20x;">
+        <div>
+              <p><h1>SAÚDE MENTAL E SUA IMPORTÂNCIA PARA O CORAÇÃO</h1></p>
         <div >
-              <h2><a name="secao1" ></a>Saúde mental na pandemia</h2>
-              <p>Mente e coração não são dois opostos. Pensamentos, sentimentos, situações adversas e outras condições emocionais que nos atravessam estão conectadas ao funcionamento do nosso corpo. Estudos científicos trazem, cada vez mais, evidências sobre a relação entre a saúde mental e doenças cardiovasculares.</p>
+            <div>  
+                <p><h2><a name="secao1" ></a>Saúde mental na pandemia</h2></p>
+            </div>
+            <p>Mente e coração não são dois opostos. Pensamentos, sentimentos, situações adversas e outras condições emocionais que nos atravessam estão conectadas ao funcionamento do nosso corpo. Estudos científicos trazem, cada vez mais, evidências sobre a relação entre a saúde mental e doenças cardiovasculares.</p>
               <p>Dessa forma, o cuidado com a saúde do coração deve ser realizado de forma integrada e deve ser capaz de atender às necessidades de corpo físico e sutil. Para além de questões como obesidade e hipertensão, por exemplo, é preciso olhar também para a carga de estresse de cada pessoa e ajudá-la a lidar melhor com as situações que a angustiam.</p>
-            <div class="container">
-                <div class="item">
+        <div class="container">
+            <div class="item">
                       <iframe src="https://www.youtube.com/embed/CrwRwgNJIMU" title="YouTube video player" width="300" height="300" allowfullscreen></iframe>
-                </div>
             </div>
         </div>
-        <div >
+    </div>
               <h2><a name="secao2"></a>Saúde mental, estresse e ansiedade no Brasil </h2>
               <p>Para começar, é importante compreendermos o tamanho da questão dos transtornos mentais. Como vimos no início, o Brasil é considerado o país mais ansioso do mundo, de acordo com a OMS. E, diante do atravessamento da pandemia do novo coronavírus, a situação da saúde mental no país piorou: pesquisa realizada pela Universidade de São Paulo (USP), em onze países, mostrou que o Brasil é o país com mais casos de ansiedade (63%) e depressão (59%).</p>
               <p>Os números são alarmantes e servem para que, diante deles, possamos perceber a urgência em cuidar da mente e das emoções para que nosso corpo, como um todo, possa realizar suas funções em equilíbrio.</p>
@@ -122,6 +124,7 @@ Desopilar a mente e explorar outros sentidos do corpo colabora para o bem-estar 
         <div style="text-align:right;" >
             <a href="#inicio" ><font color="blue">Voltar ao início</font></a>
         </div>
+        <div id="rodape" style="background-color: blueviolet;">
         <div id="contato-info" class="text-container">
             <div class="links-container">
                 <h3>Procure ajuda, você não está sozinho!</h3>
@@ -134,25 +137,22 @@ Desopilar a mente e explorar outros sentidos do corpo colabora para o bem-estar 
                 <input type="text" name="telefone" id="telefone" placeholder="Telefone" />
                 <input type="submit" value="Enviar" class="btn" />
             </form>
-            </div>
-                 <p class="telefone-info">Canal Exclusivo!!</p>
-            </div>
         </div>   
     <!-- Rodapé -->
     <footer>
-        <div id="rodape" style="background-color: blueviolet;">
             <div class="links-container">
                 <div class="networks">
                     <a href="#"><i class="bi bi-facebook"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="https://github.com/JoiceTI/PROJETOnovo" target="_blank"></a>><i class="bi bi-github"></i></a>
+                    <a href="https://github.com/JoiceTI/PROJETOnovo" target="_blank"><i class="bi bi-github"></i></a>
                 </div>
+                  <p class="telefone-info">Canal Exclusivo!!</p>
             </div>        
-                <div id="comenta" style="text-align: center;">
-                   <small>Desenvolvido por<a>Joice Viana Pereira, Gustavo Cardoso Rodrigues da Silva e Maicon de Oliveira Gonçalves </a></small>
-            </div>
-        </div>    
+                <div id="comenta">
+                   <small>Desenvolvido por<a>Joice Viana Pereira, Gustavo Cardoso Rodrigues da Silva e Maicon de Oliveira Gonçalves</a></small>
+                </div>
+            </div>    
     </footer>
 </body>
 </html>
