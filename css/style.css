@@ -283,6 +283,31 @@ input[type="submit"] {
     padding: 0;
 }
 
+.img.style {
+    width: 300px;
+    aspect-ratio: auto 300 / 300;
+    height: 300px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.imagem {
+    width: 300px;
+    height: 300px;
+    overflow: clip;
+}
+  
+.video {
+    width: 300px;
+    height: 300px;
+    overflow: clip;
+}
+
 .number {
     font-size: 4rem;
     font-weight: 900;
@@ -423,7 +448,7 @@ input[type="submit"] {
 
 #rodape {
     color: var(--texto-secundario);
-    background-color: var(--);
+    background-color: var(--primaria);
     display: flex;
     justify-content: space-around;
     padding: 2rem 2rem 2rem;
