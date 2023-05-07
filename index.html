@@ -31,9 +31,7 @@
         }
          
     </style>
-     
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header id="cabecalho"  style="background-color: blueviolet;">
@@ -121,33 +119,39 @@ Desopilar a mente e explorar outros sentidos do corpo colabora para o bem-estar 
             <a href="#inicio" ><font color="blue">Voltar ao início</font></a>
         </div>
 
-        <div  > 
-            <form action="" method="post">
-                <h3>Procure ajuda, você não está sozinho!</h3></br>
-                <span>Receba nosso folheto.</span><br/>
-                <label>Seu nome:</label>
-                <input type="text"><br/>
-                <label>Seu email:</label>
-                <input type="email"  ><br/><br/>
-                <input type="submit" value="OK">
+        <div id="contato-info" class="text-container">
+            <p class="section-subtitulo">Procure ajuda, você não está sozinho!</p>
+            <form>
+                <div class="form-controle">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" />
+                    <input type="email" name="email" id="email" placeholder="E-mail" />
+                </div>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone" />
+                <textarea name="msg" id="msg" placeholder="Sua mensagem..."></textarea>
+                <input type="submit" value="Enviar" class="btn" />
             </form>
-
+        </div>   
+    <!-- Rodapé -->
+    <footer>
+        <div id="rodape">
+            <div class="networks">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/JoiceTI/PROJETOnovo"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="links-container">
+                <h4>Procure ajuda, você não está sozinho!</h4>
+                <div class="telefone-numero">
+                    <i class="bi bi-whatsapp"></i>
+                    <p>(99) 9999-9999</p>
+                </div>
+                <p class="telefone-info">Canal exclusivo</p>
+            </div>
         </div>
-        </center>
-    </div>
-    
-    <footer id="rodape"  style="background-color: blueviolet;" >
-        <center>
-                <span ><font color="white">Joice Viana Pereira</font></span><br/>
-                <span ><font color="white">Gustavo Cardoso Rodrigues da Silva</font></span><br/>
-                <span ><font color="white">Maicon de Oliveira Gonçalves</font></span><br/>
-                <br/>
-                <a href="http://@gmail.com" target="_blank"><i class="fa fa-envelope   branco"></i></a> 
-                <a href="http://whatsapp.com" target="_blank"><i class="fa fa-whatsapp   verde"></i></a> 
-                <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square  azul"></i></a> 
-                <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram  laranja"></i></a> 
-                <a href="https://github.com/JoiceTI/PROJETOnovo" target="_blank"><i class="fa fa-github  branco"></i></a> 
-        </center>
+        <div id="comenta">
+            <small>Site desenvolvido por <a target="_blank">Joice Viana Pereira, Gustavo Cardoso Rodrigues da Silva e Maicon de Oliveira Gonçalves </a></small>
+        </div>
     </footer>
 </body>
 </html>
