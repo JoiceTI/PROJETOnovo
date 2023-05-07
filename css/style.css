@@ -165,32 +165,16 @@ input[type="submit"] {
     text-transform: uppercase;
     color: var(--texto-primario);
 }
-#img.style {
-    width: 300px;
-    aspect-ratio: auto 300 / 300;
-    height: 300px;
-}
 
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 300px;
+    height: 300px;
 }
   
-.video {
-    width: 300px;
-    height: 300px;
-    overflow: clip;
-}
-
-.image-container {
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    overflow: clip;
-}
-
 .image-container i {
     position: absolute;
 }
@@ -521,8 +505,8 @@ input[type="submit"] {
 #comenta {
     text-align: center;
     padding: 3rem;
-    background-color: var(--primaria);
-    color: var(--texto-primario);
+    background-color: var(--texto-secundario);
+    color: var(--texto-secundario);
 }
 
 #comenta a {
