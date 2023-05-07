@@ -439,7 +439,7 @@ input[type="submit"] {
 }
 
 .rodape-marca h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     text-align: center;
 }
@@ -449,7 +449,7 @@ input[type="submit"] {
 }
 
 .subtext-rodape {
-    text-align: center;
+    text-align: cente;
 }
 
 .contato-info p i {
@@ -463,7 +463,7 @@ input[type="submit"] {
 }
 
 .networks {
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     gap: 2rem;
 }
@@ -474,7 +474,7 @@ input[type="submit"] {
 
 .links-container h4 {
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 .links-container nav {
