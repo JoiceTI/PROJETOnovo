@@ -27,77 +27,79 @@
             text-decoration: none;
             font-weight: bold;
             margin-left: 0.5em;
+            text-align: center;
         }  
-        .center{
+        
+       .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 200px;
+}
+        .container{
             justify-content: center;
             align-items: center;
             width: 300px;
-            height: 300px;
-        
+            height: 300px;  
+            flex-direction: column;
+
         } 
+        .item {
+            flex: 1;
+            margin: 10px;
+        }
     </style>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <header id="cabecalho" style="background-color: blueviolet;">
-
-    <center>
-        <div height="200">
+        <div class="center">
             <a name="inicio"></a>
-            <img src="./download (1).jpg" height="200"><img src="./imagens.jpg" height="200"><img src="./saudemental_epsjv.jpg" height="200">
-        </div>
-    
-        <div>
+             <img src="./download (1).jpg" height="200"><img src="./imagens.jpg" height="200"><img src="./saudemental_epsjv.jpg" height="200">
             <h3>
-            <a href="#secao1" >Saúde Mental na Pandemia</a>   
-            <a href="#secao2" >Estresse e Ansiedade</a>   
-            <a href="#secao3" >Funcionamento do Coração</a> 
-            <a href="#secao4" >Saúde Mental em Dia</a>
+             <a href="#secao1" >Saúde Mental na Pandemia</a>   
+             <a href="#secao2" >Estresse e Ansiedade</a>   
+             <a href="#secao3" >Funcionamento do Coração</a> 
+             <a href="#secao4" >Saúde Mental em Dia</a>
             </h3>
         </div>
     </center>
     </header>
     <div id="conteudo">
-        <center>
+        <p>
         <h1>SAÚDE MENTAL E SUA IMPORTÂNCIA PARA O CORAÇÃO</h1>
-        </center>
+        <p>
         <div >
-            <h2><a name="secao1" ></a>Saúde mental na pandemia</h2>
-            <p>Mente e coração não são dois opostos. Pensamentos, sentimentos, situações adversas e outras condições emocionais que nos atravessam estão conectadas ao funcionamento do nosso corpo. Estudos científicos trazem, cada vez mais, evidências sobre a relação entre a saúde mental e doenças cardiovasculares.</p>
-            <p>Dessa forma, o cuidado com a saúde do coração deve ser realizado de forma integrada e deve ser capaz de atender às necessidades de corpo físico e sutil. Para além de questões como obesidade e hipertensão, por exemplo, é preciso olhar também para a carga de estresse de cada pessoa e ajudá-la a lidar melhor com as situações que a angustiam.</p>
-        <center>    
-            <img src="./saude-mental-e-sua-importancia-para-o-coracao-capa-1024x585.jpg" class="imagem" width="300px" height="300px">
-            <video class="video" controls width="300px" height="300px">
-                    <source src="" type="video/mp4">
-                    Se está vendo essa mensagem, significa que seu navegador precisa ser atualizado.
-            </video>
-        </center>
+              <h2><a name="secao1" ></a>Saúde mental na pandemia</h2>
+              <p>Mente e coração não são dois opostos. Pensamentos, sentimentos, situações adversas e outras condições emocionais que nos atravessam estão conectadas ao funcionamento do nosso corpo. Estudos científicos trazem, cada vez mais, evidências sobre a relação entre a saúde mental e doenças cardiovasculares.</p>
+              <p>Dessa forma, o cuidado com a saúde do coração deve ser realizado de forma integrada e deve ser capaz de atender às necessidades de corpo físico e sutil. Para além de questões como obesidade e hipertensão, por exemplo, é preciso olhar também para a carga de estresse de cada pessoa e ajudá-la a lidar melhor com as situações que a angustiam.</p>
+            <div class="container">
+                <div class="item">
+                      <iframe src="https://www.youtube.com/embed/CrwRwgNJIMU" title="YouTube video player" width="300" height="300" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <div >
-            <h2><a name="secao2"></a>Saúde mental, estresse e ansiedade no Brasil </h2>
-            <p>Para começar, é importante compreendermos o tamanho da questão dos transtornos mentais. Como vimos no início, o Brasil é considerado o país mais ansioso do mundo, de acordo com a OMS. E, diante do atravessamento da pandemia do novo coronavírus, a situação da saúde mental no país piorou: pesquisa realizada pela Universidade de São Paulo (USP), em onze países, mostrou que o Brasil é o país com mais casos de ansiedade (63%) e depressão (59%).</p>
-            <p>Os números são alarmantes e servem para que, diante deles, possamos perceber a urgência em cuidar da mente e das emoções para que nosso corpo, como um todo, possa realizar suas funções em equilíbrio.</p>
-        <center>    
-            <img src="./stress-infographic.jpg" class="imagem" width="300px" height="300px">
-            <video class="video" controls width="300px" height="300px">
-                    <source src="" type="video/mp4">
-                    Se está vendo essa mensagem, significa que seu navegador precisa ser atualizado.
-            </video>
-        </center>
+              <h2><a name="secao2"></a>Saúde mental, estresse e ansiedade no Brasil </h2>
+              <p>Para começar, é importante compreendermos o tamanho da questão dos transtornos mentais. Como vimos no início, o Brasil é considerado o país mais ansioso do mundo, de acordo com a OMS. E, diante do atravessamento da pandemia do novo coronavírus, a situação da saúde mental no país piorou: pesquisa realizada pela Universidade de São Paulo (USP), em onze países, mostrou que o Brasil é o país com mais casos de ansiedade (63%) e depressão (59%).</p>
+              <p>Os números são alarmantes e servem para que, diante deles, possamos perceber a urgência em cuidar da mente e das emoções para que nosso corpo, como um todo, possa realizar suas funções em equilíbrio.</p>
+            <div class="container">
+                <div class="item">
+                  <img src="./stress-infographic.jpg" alt="Estresse" width="300" height="300">
+                </div>
+            </div>
         </div>
         <div >
-            <h2><a name="secao3"></a>Como ansiedade e estresse afetam o funcionamento do coração?</h2>
-            <p>O estresse é uma condição que se caracteriza pela sensação de desconforto, pelo medo, preocupação, nervosismo e até indignação. Quando a gente se incomoda, se sente afetado, de uma forma profunda é um sinal que fala da relação entre a saúde mental e as doenças coronarianas. Diante desse mal-estar mental, gera-se um estado de tensão e atenção constantes no corpo, responsável por aumentar a liberação de determinados hormônios, como adrenalina e cortisol.</p>
-            <p>Estas substâncias, em excesso no organismo, provocam instabilidade, elevam a pressão sanguínea e os batimentos cardíacos, que são fatores para desencadear, por exemplo, um infarto ou Acidente Vascular Cerebral (AVC). Estas substâncias, em excesso no organismo, provocam instabilidade, elevam a pressão sanguínea e os batimentos cardíacos, que são fatores para desencadear, por exemplo, um infarto ou Acidente Vascular Cerebral (AVC).</p>
-        <center>
-            <img src="./saude-mental-e-sua-importancia-para-o-coracao.jpg" class="imagem" width="300px" height="300px">
-            <video class="video" controls width="300px" height="300px">
-                    <source src="" type="video/mp4">
-                    Se está vendo essa mensagem, significa que seu navegador precisa ser atualizado.
-            </video>
-        </center>
+              <h2><a name="secao3"></a>Como ansiedade e estresse afetam o funcionamento do coração?</h2>
+              <p>O estresse é uma condição que se caracteriza pela sensação de desconforto, pelo medo, preocupação, nervosismo e até indignação. Quando a gente se incomoda, se sente afetado, de uma forma profunda é um sinal que fala da relação entre a saúde mental e as doenças coronarianas. Diante desse mal-estar mental, gera-se um estado de tensão e atenção constantes no corpo, responsável por aumentar a liberação de determinados hormônios, como adrenalina e cortisol.</p>
+              <p>Estas substâncias, em excesso no organismo, provocam instabilidade, elevam a pressão sanguínea e os batimentos cardíacos, que são fatores para desencadear, por exemplo, um infarto ou Acidente Vascular Cerebral (AVC). Estas substâncias, em excesso no organismo, provocam instabilidade, elevam a pressão sanguínea e os batimentos cardíacos, que são fatores para desencadear, por exemplo, um infarto ou Acidente Vascular Cerebral (AVC).</p>
+            <div class="container">
+                <div class="item">
+                   <img src="./saude-mental-e-sua-importancia-para-o-coracao.jpg" alt="Importância para o Coração" width="300" height="300">
+                </div>
+            </div>
         </div>
-
         <div>
             <h2><a name="secao4"></a>Como manter a saúde mental em dia?</h2>
             <p>O cuidado com a saúde mental está associado, diretamente, a atitudes práticas de bem-estar que devem ser incorporadas ao cotidiano.       
@@ -112,13 +114,12 @@ Ler um livro, ouvir música, cozinhar, bordar, pintar, realizar atividades manua
 
 Desopilar a mente e explorar outros sentidos do corpo colabora para o bem-estar mental e protege o coração. Então, permita-se se sentir bem por completo, combinado?
             </p>   
-        <div class="center">
-                <img src="./saude-mental-dicas.jpg" alt="Saude Mental" width="300" height="300">
-        </div>    
-            <div class="center"> 
-                <iframe src="https://www.youtube.com/embed/CrwRwgNJIMU" title="YouTube video player" 0" height="300" allowfullscreen></iframe>
+            <div class="container">
+                <div class="item">
+                      <iframe src="https://www.youtube.com/embed/CrwRwgNJIMU" title="YouTube video player" width="300" height="300" allowfullscreen></iframe>
+                </div>
             </div>    
-       
+            </p>
         <div style="text-align:right;" >
             <a href="#inicio" ><font color="blue">Voltar ao início</font></a>
         </div>
@@ -141,15 +142,21 @@ Desopilar a mente e explorar outros sentidos do corpo colabora para o bem-estar 
     <!-- Rodapé -->
     <footer>
         <div id="rodape" style="background-color: blueviolet;">
-            <div class="networks">
+            <div class="links-container">
+              <p>
+                <h4>Siga-nos:</h4>
+              </p>
+                <div class="networks">
                     <a href="#"><i class="bi bi-facebook"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="https://github.com/JoiceTI/PROJETOnovo"><i class="bi bi-github"></i></a>
+                    <a href="https://github.com/JoiceTI/PROJETOnovo" target="_blank"></a>><i class="bi bi-github"></i></a>
+                </div>
+            </div>        
+                <div id="comenta" style="text-align: center;">
+                   <small>Desenvolvido por<a>Joice Viana Pereira, Gustavo Cardoso Rodrigues da Silva e Maicon de Oliveira Gonçalves </a></small>
             </div>
-        <div id="comenta" >
-            <small>Site desenvolvido por <a>Joice Viana Pereira, Gustavo Cardoso Rodrigues da Silva e Maicon de Oliveira Gonçalves </a></small>
-        </div>
+        </div>    
     </footer>
 </body>
 </html>
